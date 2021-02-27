@@ -531,6 +531,6 @@ async def 뽑기(ctx):
 
 
 bot.loop.create_task(initialize())
-bot.run('ODA3OTg3MDIxODYzNTgzNzQ0.YB_-jQ.MDuAp-48dGnK2iby464Q1BFE1og')
+bot.run('봇토큰')
 bot.remove_command("help")
 asyncio.run(bot.db.close())
